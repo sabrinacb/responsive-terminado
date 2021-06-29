@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+body {font-family: 'Roboto Slab', serif; }
+.col-lg-3 { border: 1px solid #F88F16; border-radius: 5px;  }
+nav { font-family: 'Roboto', sans-serif;}
+nav a { text-decoration: none; font-weight: bold; color: #333; }
+.col-lg-3:nth-child(2) { border-color: #2C00CC;}
+.col-lg-3:nth-child(3) { border-color: #734DFF;}
+.col-lg-3:nth-child(2) p,  .col-lg-3:nth-child(2) h3 { color: #2C00CC;}
+.col-lg-3:nth-child(3) p,  .col-lg-3:nth-child(3) h3 { color:#734DFF ;}
+.col-lg-3 h3,.col-lg-3 p  { color: #F88F16; font-weight:bold;}
+.col-lg-3 ul { font-size: 16.95px;text-align:left; list-style:  url(../imagenes/check.svg); font-family: 'Roboto', sans-serif; font-weight: bold;}
+li { margin-bottom:1em;}
+ul + p { border-top: 1px solid; color:#F88F16;text-transform: uppercase; font-size: 20px;font-weight: bold;  }
+ul + p:first-line { text-transform: capitalize;}
+h1 { font-size: 72px; font-weight: bold;}
+.bajada { font-size: 26px;}
+h3 { font-size: 32px; font-weight: bold;}
+h3 + p { font-size: 30px;}
+h2 { font-size: 40px; font-weight: bold; color: #2C00CC;}
+h4 { font-size: 32px;}
+.btn-success { font-weight: bold; font-size: 27px; background-color: #F98500; border: none;}
+footer { font-size: 16px;  background-color: #734DFF;}
+
+footer p {  font-family: 'Raleway', sans-serif; font-size: 16px; border-bottom:1px solid; color:white; text-transform: uppercase;}
+
+
+
+@media (max-width:900px){
+.banner { min-height: auto;}
+.col-1 , nav button{margin-bottom:1em;}
+
+
+}
